@@ -1,4 +1,4 @@
-# 🔐 CTF John Lab – Quebra de Hash Yescrypt no Kali Linux
+# 🔐 CTF John Lab – Quebra de Hash no Kali Linux
 
 Este repositório documenta a resolução de um desafio CTF realizado em ambiente real no 
 **Kali Linux**, com foco em **análise forense e quebra de hash** utilizando o 
