@@ -22,7 +22,6 @@ uma senha hash yescrypt com o prefixo `$y$`.
 - 🗂 Arquivos reais do sistema Linux: `/etc/passwd` e `/etc/shadow`
 - 🧩 Comando `unshadow` para gerar o arquivo final de hashes
 - 📁 Arquivo final: `target_hashes.txt`
-- 📜 Wordlist: `wordlist.txt`
 - 📸 Prints da execução disponíveis na pasta `prints`
 
 ---
@@ -46,7 +45,7 @@ uma senha hash yescrypt com o prefixo `$y$`.
    ```
 
 4. **(Opcional) Execução com wordlist personalizada:**
-   Caso você tenha uma wordlist personalizada, pode utilizá-la assim:
+   Caso você tenha uma wordlist personalizada na pasta, pode utilizá-la assim:
 
    ```bash
    john --format=yescrypt --wordlist=wordlist.txt target_hashes.txt
@@ -82,7 +81,6 @@ uma senha hash yescrypt com o prefixo `$y$`.
 ```
 📂 john-the-ripper-desafio
 ├── target_hashes.txt         # Arquivo gerado com unshadow (passwd + shadow)
-├── wordlist.txt              # Arquivo de dicionário utilizado
 ├── prints/                   # Capturas de tela do processo
 │   ├── unshadow.png
 │   ├── john-executando.png
